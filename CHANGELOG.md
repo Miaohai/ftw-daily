@@ -14,6 +14,7 @@ way to update this template, but currently, we follow a pattern:
 
 ## Upcoming version 2020-XX-XX
 
+- [fix] small typo. [#1319](https://github.com/sharetribe/ftw-daily/pull/1319)
 - [add] Update French translation file (Spanish and German translations have still missing keys).
   [#1316](https://github.com/sharetribe/ftw-daily/pull/1316)
 - [fix] Sync bookingUnitType variables and update comments. Client app's API (proxy) server needs to
