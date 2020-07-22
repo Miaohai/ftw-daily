@@ -85,19 +85,23 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: 'smoke', label: 'Smoke' },
-        { key: 'electric', label: 'Electric' },
-        { key: 'wood', label: 'Wood' },
-        { key: 'other', label: 'Other' },
+        { key: 'carbs', label: 'Carbs' },
+        { key: 'fruits and vegetables', label: 'Fruits and Vegetables' },
+        { key: 'dairy', label: 'Dairy' },
+        { key: 'meat, fish or eggs', label: 'Meat, Fish or Eggs' },
+        { key: 'fat', label: 'Fat' },
+        { key: 'high-sugar foods', label: 'High-Sugar Foods' },
+        { key: 'drinks', label: 'Drinks' },
+        { key: 'others', label: 'Others' },
       ],
     },
   },
   {
-    id: 'amenities',
-    label: 'Amenities',
+    id: 'ingredients',
+    label: 'Ingredients',
     type: 'SelectMultipleFilter',
     group: 'secondary',
-    queryParamNames: ['pub_amenities'],
+    queryParamNames: ['pub_ingredients'],
     config: {
       // Optional modes: 'has_all', 'has_any'
       // https://www.sharetribe.com/api-reference/marketplace.html#extended-data-filtering
@@ -109,36 +113,48 @@ export const filters = [
       // to make filter customizations a bit easier.
       options: [
         {
-          key: 'towels',
-          label: 'Towels',
+          key: 'Garlic',
+          label: 'Garlic',
         },
         {
-          key: 'bathroom',
-          label: 'Bathroom',
+          key: 'all-purpose flour',
+          label: 'All-purpose flour',
         },
         {
-          key: 'swimming_pool',
-          label: 'Swimming pool',
+          key: 'White sugar',
+          label: 'White sugar',
         },
         {
-          key: 'own_drinks',
-          label: 'Own drinks allowed',
+          key: 'Brown sugar',
+          label: 'Brown sugar',
         },
         {
-          key: 'jacuzzi',
-          label: 'Jacuzzi',
+          key: 'Baking powder',
+          label: 'Baking powder',
         },
         {
-          key: 'audiovisual_entertainment',
-          label: 'Audiovisual entertainment',
+          key: 'milk',
+          label: 'Milk',
         },
         {
-          key: 'barbeque',
-          label: 'Barbeque',
+          key: 'Butter',
+          label: 'Butter',
         },
         {
-          key: 'own_food_allowed',
-          label: 'Own food allowed',
+          key: 'Onions',
+          label: 'Onions',
+        },
+        {
+          key: 'Celery',
+          label: 'Celery',
+        },
+        {
+          key: 'Carrots',
+          label: 'Carrots',
+        },
+        {
+          key: 'Tomatoes',
+          label: 'Tomatoes',
         },
       ],
     },

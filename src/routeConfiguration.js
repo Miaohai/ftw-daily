@@ -30,12 +30,14 @@ import {
 // at that point css bundling / imports will happen in wrong order.
 import { NamedRedirect } from './components';
 
-export const ACCOUNT_SETTINGS_PAGES = [
-  'ContactDetailsPage',
-  'PasswordChangePage',
-  'StripePayoutPage',
-  'PaymentMethodsPage',
-];
+// export const ACCOUNT_SETTINGS_PAGES = [
+//   'ContactDetailsPage',
+//   'PasswordChangePage',
+//   'StripePayoutPage',
+//   'PaymentMethodsPage',
+// ];
+
+export const ACCOUNT_SETTINGS_PAGES = ['ContactDetailsPage', 'PasswordChangePage'];
 
 // https://en.wikipedia.org/wiki/Universally_unique_identifier#Nil_UUID
 const draftId = '00000000-0000-0000-0000-000000000000';

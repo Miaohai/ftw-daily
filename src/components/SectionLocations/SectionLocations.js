@@ -12,6 +12,11 @@ import helsinkiImage from './images/location_helsinki.jpg';
 import rovaniemiImage from './images/location_rovaniemi.jpg';
 import rukaImage from './images/location_ruka.jpg';
 
+
+import yishunImage from './images/yishun.jpg';
+import amkImage from './images/amk.jpg';
+import changiImage from './images/changi.jpg';
+
 class LocationImage extends Component {
   render() {
     const { alt, ...rest } = this.props;
@@ -51,19 +56,19 @@ const SectionLocations = props => {
       </div>
       <div className={css.locations}>
         {locationLink(
-          'Helsinki',
-          helsinkiImage,
-          '?address=Helsinki%2C%20Finland&bounds=60.2978389%2C25.254484899999966%2C59.9224887%2C24.782875800000056&origin=60.16985569999999%2C24.93837910000002'
+          'Yishun',
+          yishunImage,
+          '?address=Yishun%2C%20Singapore&bounds=1.4340823527707152%2C103.84255163220033%2C1.4161160472292853%2C103.82457976779969'
         )}
         {locationLink(
-          'Rovaniemi',
-          rovaniemiImage,
-          '?address=Rovaniemi%2C%20Finland&bounds=67.18452510000002%2C27.32667850000007%2C66.1553745%2C24.736871199999996&origin=66.50394779999999%2C25.729390599999988'
+          'AMK',
+          amkImage,
+          '?address=AMK%2C%20Singapore&bounds=1.3874348055414298%2C103.86684693877476%2C1.3515021944585701%2C103.83090406122523'
         )}
         {locationLink(
-          'Ruka',
-          rukaImage,
-          '?address=Ruka%2C%20Finland&bounds=66.1704578%2C29.14246849999995%2C66.1614402%2C29.110453699999994&origin=66.16594940000002%2C29.12646110000003'
+          'Changi',
+          changiImage,
+          '?address=Singapore%20Changi%20Airport%2C%20Airport%20Boulevard%2C%20Singapore%2C%20South%20East%20819643%2C%20Singapore&bounds=1.3739845555414298%2C104.00646583841429%2C1.3380519444585701%2C103.97052316158572'
         )}
       </div>
     </div>

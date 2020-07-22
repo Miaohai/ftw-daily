@@ -967,3 +967,4 @@ CheckoutPage.setInitialValues = initialValues => setInitialValues(initialValues)
 CheckoutPage.displayName = 'CheckoutPage';
 
 export default CheckoutPage;
+
